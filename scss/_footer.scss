@@ -1,0 +1,33 @@
+
+.footer-tanpura {
+    background-color: $negro-fondo;
+    padding: 60px 0;
+    border-top: 3px solid $rojo-tanpura;
+    
+    .container{
+            color: $blanco-gris;
+    }
+
+    .footer-brand {
+        color: $rojo-tanpura;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: bold;
+        &:hover {
+            color: white; 
+        }
+    }
+
+    .footer-socials {
+        i {
+            font-size: 2rem;
+            margin: 0 15px;
+            color: $blanco-gris;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: $rojo-tanpura !important;
+            }
+        }
+    }
+}

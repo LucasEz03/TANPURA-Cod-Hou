@@ -1,0 +1,44 @@
+.footer-tanpura {
+  background-color: #0a0a0a;
+  padding: 60px 0;
+  border-top: 3px solid #9a0000;
+}
+.footer-tanpura .container {
+  color: #d1d1d1;
+}
+.footer-tanpura .footer-brand {
+  color: #9a0000;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-tanpura .footer-brand:hover {
+  color: white;
+}
+.footer-tanpura .footer-socials i {
+  font-size: 2rem;
+  margin: 0 15px;
+  color: #d1d1d1;
+  transition: all 0.3s ease;
+}
+.footer-tanpura .footer-socials i:hover {
+  color: #9a0000 !important;
+}
+
+.navbar {
+  background-color: #0a0a0a !important;
+  border-bottom: 3px solid #9a0000;
+  padding: 1rem 0;
+}
+.navbar .navbar-brand {
+  color: #9a0000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar .nav-link {
+  color: #ffffff;
+}
+.navbar .nav-link:hover {
+  color: #9a0000;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */

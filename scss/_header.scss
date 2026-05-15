@@ -1,0 +1,19 @@
+.navbar{
+    background-color: $negro-fondo !important;
+    border-bottom: 3px solid $rojo-tanpura;
+    padding: 1rem 0;
+
+    .navbar-brand{
+        color:$rojo-tanpura;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    .nav-link{
+        color: $blanco-letras;
+        &:hover{
+            color: $rojo-tanpura;
+            transition: 0.3s;
+        }
+    }
+}
