@@ -43,6 +43,10 @@
   transition: 0.3s;
 }
 
+body {
+  background-color: #413c3c;
+}
+
 .inicio {
   background-color: #1a1a1a;
   padding: 80px 20px;
@@ -102,4 +106,74 @@
 .container .tarjeta-video-tanpura iframe {
   width: 100%;
   height: 230px;
+}
+
+#ultimo-lanzamiento {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  margin-bottom: 40px;
+}
+#ultimo-lanzamiento h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  border-left: 4px solid #9a0000;
+  padding-left: 10px;
+}
+#ultimo-lanzamiento img {
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+#ultimo-lanzamiento iframe {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#letras {
+  padding: 40px 0;
+}
+#letras h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+#letras h3 {
+  color: #9a0000;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#letras p {
+  color: #918f8f;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+#plataformas {
+  padding: 40px 0;
+}
+#plataformas h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+#plataformas .btn-plataforma {
+  display: inline-block;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 2px solid #918f8f;
+  color: #ffffff;
+  width: 100%;
+}
+#plataformas .btn-plataforma:hover {
+  color: white;
+  background-color: #9a0000;
+  border-color: #9a0000;
+  transform: scale(1.05);
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+#ultimo-lanzamiento {
+    background-color: $fondo-secundario;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    margin-bottom: 40px; 
+
+    h2 {
+        color: $blanco-letras;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        border-left: 4px solid $rojo-tanpura;
+        padding-left: 10px;
+    }
+
+    img {
+        border-radius: 6px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    }
+
+    iframe {
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+}
+
+#letras {
+    padding: 40px 0;
+
+    h2 {
+        color: $blanco-letras;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: $rojo-tanpura; 
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: $blanco-gris;
+        font-style: italic; 
+        line-height: 1.8;
+    }
+}
+
+#plataformas {
+    padding: 40px 0;
+
+    h2 {
+        color: $blanco-letras;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    .btn-plataforma {
+        @include boton-estructura; 
+        border: 2px solid $blanco-gris;
+        color: $blanco-letras;
+        width: 100%; 
+
+        &:hover {
+            color: white;
+            background-color: $rojo-tanpura;
+            border-color: $rojo-tanpura;
+            transform: scale(1.05);
+        }
+    }
+}

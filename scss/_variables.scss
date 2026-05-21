@@ -3,3 +3,15 @@ $rojo-tanpura: #9a0000;
 $blanco-gris: #918f8f;
 $blanco-letras: #ffffff;
 $fondo-secundario: #1a1a1a;
+$fondo-principal: #413c3c;
+
+@mixin boton-estructura {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
