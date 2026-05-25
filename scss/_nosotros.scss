@@ -1,0 +1,72 @@
+#historia {
+    padding: 60px 0;
+    margin-bottom: 40px;
+
+    h2 {
+        color: $blanco-letras;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        border-left: 4px solid $rojo-tanpura; 
+        padding-left: 15px;
+    }
+
+    p {
+        color: $blanco-gris;
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+
+    img {
+        border-radius: 8px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7); 
+    }
+}
+
+#integrantes {
+    padding: 60px 0;
+
+    h2 {
+        color: $blanco-letras;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+    }
+
+    .tarjeta-musico {
+        background-color: $fondo-secundario;
+        padding: 25px;
+        border-radius: 8px;
+        border: 1px solid #2a2a2a;
+        text-align: center;
+        transition: all 0.3s ease;
+
+        img {
+            border-radius: 6px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        h3 {
+            color: $blanco-letras;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: $rojo-tanpura;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            border: 1px solid $rojo-tanpura;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba($rojo-tanpura, 0.2);
+        }
+    }
+}

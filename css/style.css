@@ -133,25 +133,37 @@ body {
 
 #letras {
   padding: 40px 0;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  margin-bottom: 40px;
 }
 #letras h2 {
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 4px solid #9a0000;
 }
 #letras h3 {
   color: #9a0000;
   text-transform: uppercase;
   margin-bottom: 15px;
+  padding-left: 10px;
 }
 #letras p {
   color: #918f8f;
   font-style: italic;
   line-height: 1.8;
+  padding-left: 10px;
 }
 
 #plataformas {
-  padding: 40px 0;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  margin-bottom: 40px;
 }
 #plataformas h2 {
   color: #ffffff;
@@ -176,4 +188,167 @@ body {
   background-color: #9a0000;
   border-color: #9a0000;
   transform: scale(1.05);
+}
+
+#historia {
+  padding: 60px 0;
+  margin-bottom: 40px;
+}
+#historia h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #9a0000;
+  padding-left: 15px;
+}
+#historia p {
+  color: #918f8f;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+#historia img {
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+#integrantes {
+  padding: 60px 0;
+}
+#integrantes h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+#integrantes .tarjeta-musico {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+#integrantes .tarjeta-musico img {
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+#integrantes .tarjeta-musico h3 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+#integrantes .tarjeta-musico p {
+  color: #9a0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+#integrantes .tarjeta-musico:hover {
+  border: 1px solid #9a0000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(154, 0, 0, 0.2);
+}
+
+#galeria-fotos {
+  padding: 60px 0;
+}
+#galeria-fotos h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+#galeria-fotos .contenedor-foto {
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+#galeria-fotos .contenedor-foto img {
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(30%) brightness(90%);
+}
+#galeria-fotos .contenedor-foto:hover img {
+  transform: scale(1.08);
+  filter: grayscale(0%) brightness(110%);
+}
+
+#playlist-seccion {
+  padding: 60px 0;
+  margin-bottom: 20px;
+}
+#playlist-seccion h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #9a0000;
+  padding-left: 15px;
+}
+#playlist-seccion p {
+  color: #918f8f;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+#playlist-seccion iframe {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+#formulario-seccion {
+  padding: 60px 0;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 60px;
+  border: 1px solid #2a2a2a;
+}
+#formulario-seccion h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#formulario-seccion .form-label {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+#formulario-seccion .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #3a3a3a;
+  color: #ffffff;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+#formulario-seccion .form-control::-moz-placeholder {
+  color: #666;
+}
+#formulario-seccion .form-control::placeholder {
+  color: #666;
+}
+#formulario-seccion .form-control:focus {
+  background-color: #1f1f1f;
+  border-color: #9a0000;
+  box-shadow: 0 0 8px rgba(154, 0, 0, 0.3);
+  color: #ffffff;
+}
+#formulario-seccion .btn-plataforma {
+  margin-top: 10px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #formulario-seccion .btn-plataforma {
+    width: auto;
+    padding: 12px 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

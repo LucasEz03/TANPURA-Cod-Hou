@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TANPURA</title>
+    <meta name="description" content="Sitio oficial de Tanpura, banda de rock argentino. Escuchá nuestra música, enterate de las próximas fechas, leé las letras del álbum Coraza Medieval y conocé a los integrantes.">
+    <meta name="keywords" content="Tanpura, rock argentino, rock nacional, Coraza Medieval, musica, guitarra, bajo, bateria, Hurlingham, Tres de Febrero">
+    <link rel="icon" href="img\logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                     <a class="nav-link" href="nosotros.html">Nosotros</a>
                     <a class="nav-link" href="musica.html">Canciones</a>
                     <a class="nav-link" href="galeria.html">Galeria</a>
@@ -29,7 +31,62 @@
         </nav>
     </header>
     <main>
+        <section class="container" id="playlist-seccion">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h2>El Under que Resiste</h2>
+                    <p>Un espacio dedicado a las bandas que la pelean desde abajo, las que gastan suela y distorsionan la realidad en cada rincón. Dale play, compartí y bancá el movimiento emergente.</p>
+                </div>
 
+                <div class="col-md-6">
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/29sZNhCGz3qxZX5lkJltx4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="formulario-seccion">
+            <h2>Postulá tu Banda</h2>
+            <form class="row g-3" novalidate>
+                <div class="col-md-6">
+                    <label for="nombreBanda" class="form-label">Nombre de la Banda (Obligatorio)</label>
+                    <input type="text" 
+                        class="form-control" 
+                        id="nombreBanda" 
+                        required 
+                        aria-required="true" 
+                        aria-describedby="ayudaBanda">
+                    <div id="ayudaBanda" class="visually-hidden">Ingresá el nombre oficial de tu proyecto musical.</div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="localidad" class="form-label">Localidad / Provincia (Obligatorio)</label>
+                    <input type="text" 
+                        class="form-control" 
+                        id="localidad" 
+                        required 
+                        aria-required="true">
+                </div>
+
+                <div class="col-12">
+                    <label for="spotifyLink" class="form-label">Link de su canción en Spotify (Obligatorio)</label>
+                    <input type="url" 
+                        class="form-control" 
+                        id="spotifyLink" 
+                        placeholder="https://open.spotify.com/track/..." 
+                        required 
+                        aria-required="true"
+                        aria-describedby="formatoLink">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" 
+                            class="btn-plataforma" 
+                            aria-label="Enviar formulario para postular tu banda a la playlist">
+                        Enviar Postulación
+                    </button>
+                </div>
+            </form>
+        </section>
     </main>
     <footer class="footer-tanpura py-5">
         <div class="container">

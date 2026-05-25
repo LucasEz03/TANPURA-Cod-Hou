@@ -26,28 +26,40 @@
 
 #letras {
     padding: 40px 0;
+    background-color: $fondo-secundario;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    margin-bottom: 40px; 
 
     h2 {
         color: $blanco-letras;
         text-transform: uppercase;
         margin-bottom: 30px;
+        padding-left: 10px;
+        border-left: 4px solid $rojo-tanpura;
     }
 
     h3 {
         color: $rojo-tanpura; 
         text-transform: uppercase;
         margin-bottom: 15px;
+        padding-left: 10px;
     }
 
     p {
         color: $blanco-gris;
         font-style: italic; 
         line-height: 1.8;
+        padding-left: 10px;
     }
 }
 
 #plataformas {
-    padding: 40px 0;
+    background-color: $fondo-secundario;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #2a2a2a;
+    margin-bottom: 40px; 
 
     h2 {
         color: $blanco-letras;
