@@ -1,13 +1,13 @@
 .footer-tanpura {
   background-color: #0a0a0a;
   padding: 60px 0;
-  border-top: 3px solid #9a0000;
+  border-top: 3px solid #b30000;
 }
 .footer-tanpura .container {
-  color: #918f8f;
+  color: #b3b3b3;
 }
 .footer-tanpura .footer-brand {
-  color: #9a0000;
+  color: #b30000;
   font-size: 2rem;
   text-decoration: none;
   font-weight: bold;
@@ -16,22 +16,22 @@
   color: white;
 }
 .footer-tanpura .footer-socials i {
-  font-size: 2rem;
+  font-size: 1.3rem;
   margin: 0 15px;
-  color: #918f8f;
+  color: #b3b3b3;
   transition: all 0.3s ease;
 }
 .footer-tanpura .footer-socials i:hover {
-  color: #9a0000 !important;
+  color: #b30000 !important;
 }
 
 .navbar {
   background-color: #0a0a0a !important;
-  border-bottom: 3px solid #9a0000;
+  border-bottom: 3px solid #b30000;
   padding: 1rem 0;
 }
 .navbar .navbar-brand {
-  color: #9a0000;
+  color: #b30000;
   font-weight: bold;
   letter-spacing: 2px;
 }
@@ -39,45 +39,52 @@
   color: #ffffff;
 }
 .navbar .nav-link:hover {
-  color: #9a0000;
+  color: #b30000;
   transition: 0.3s;
 }
 
 body {
-  background-color: #413c3c;
+  background-color: #121212;
 }
 
 .inicio {
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   padding: 80px 20px;
   text-align: center;
 }
 .inicio .titulo {
   color: #ffffff;
   font-size: 50px;
-  letter-spacing: 0.5cap;
+  letter-spacing: 0.2em;
 }
 .inicio .texto {
-  color: #918f8f;
+  color: #b3b3b3;
   font-size: 18px;
-  line-height: 2cap;
+  line-height: 1.8rem;
   max-width: 800px;
   margin: 20px auto;
 }
 .inicio .inicio-links {
   display: inline-block;
   padding: 15px 25px;
-  margin: 0 15px;
-  border: 2px solid #9a0000;
   text-decoration: none;
   text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
   transition: all 0.3s ease;
+}
+.inicio .inicio-links:hover {
+  transform: scale(1.05);
+}
+.inicio .inicio-links {
+  margin: 0 15px;
+  border: 2px solid #b30000;
   color: #ffffff;
 }
 .inicio .inicio-links:hover {
-  color: #9a0000;
+  color: #b30000;
   background-color: #ffffff;
-  transform: scale(1.05);
 }
 
 .container {
@@ -90,14 +97,14 @@ body {
   margin-bottom: 40px;
 }
 .container .tarjeta-video-tanpura {
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   padding: 20px;
-  border: 1px solid #918f8f;
+  border: 1px solid #b3b3b3;
   border-radius: 8px;
+  transition: all 0.3s ease;
 }
 .container .tarjeta-video-tanpura:hover {
-  transition: all 0.3s ease;
-  border: 2px solid #9a0000;
+  border: 2px solid #b30000;
 }
 .container .tarjeta-video-tanpura .textos {
   color: #ffffff;
@@ -109,7 +116,7 @@ body {
 }
 
 #ultimo-lanzamiento {
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   padding: 30px;
   border-radius: 8px;
   border: 1px solid #2a2a2a;
@@ -120,7 +127,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 1.8rem;
-  border-left: 4px solid #9a0000;
+  border-left: 4px solid #b30000;
   padding-left: 10px;
 }
 #ultimo-lanzamiento img {
@@ -133,7 +140,7 @@ body {
 
 #letras {
   padding: 40px 0;
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   border-radius: 8px;
   border: 1px solid #2a2a2a;
   margin-bottom: 40px;
@@ -143,23 +150,23 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
   padding-left: 10px;
-  border-left: 4px solid #9a0000;
+  border-left: 4px solid #b30000;
 }
 #letras h3 {
-  color: #9a0000;
+  color: #b30000;
   text-transform: uppercase;
   margin-bottom: 15px;
   padding-left: 10px;
 }
 #letras p {
-  color: #918f8f;
+  color: #b3b3b3;
   font-style: italic;
   line-height: 1.8;
   padding-left: 10px;
 }
 
 #plataformas {
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   padding: 30px;
   border-radius: 8px;
   border: 1px solid #2a2a2a;
@@ -179,15 +186,19 @@ body {
   text-align: center;
   border-radius: 4px;
   transition: all 0.3s ease;
-  border: 2px solid #918f8f;
+}
+#plataformas .btn-plataforma:hover {
+  transform: scale(1.05);
+}
+#plataformas .btn-plataforma {
+  border: 2px solid #b3b3b3;
   color: #ffffff;
   width: 100%;
 }
 #plataformas .btn-plataforma:hover {
   color: white;
-  background-color: #9a0000;
-  border-color: #9a0000;
-  transform: scale(1.05);
+  background-color: #b30000;
+  border-color: #b30000;
 }
 
 #historia {
@@ -199,11 +210,11 @@ body {
   text-transform: uppercase;
   font-size: 2.5rem;
   margin-bottom: 20px;
-  border-left: 4px solid #9a0000;
+  border-left: 4px solid #b30000;
   padding-left: 15px;
 }
 #historia p {
-  color: #918f8f;
+  color: #b3b3b3;
   font-size: 1.1rem;
   line-height: 1.8;
 }
@@ -223,7 +234,7 @@ body {
   margin-bottom: 50px;
 }
 #integrantes .tarjeta-musico {
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   padding: 25px;
   border-radius: 8px;
   border: 1px solid #2a2a2a;
@@ -241,17 +252,17 @@ body {
   margin-bottom: 10px;
 }
 #integrantes .tarjeta-musico p {
-  color: #9a0000;
+  color: #b30000;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   margin-bottom: 0;
 }
 #integrantes .tarjeta-musico:hover {
-  border: 1px solid #9a0000;
+  border: 1px solid #b30000;
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(154, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(179, 0, 0, 0.2);
 }
 
 #galeria-fotos {
@@ -270,10 +281,15 @@ body {
   border-radius: 6px;
   border: 1px solid #2a2a2a;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   cursor: pointer;
+  height: 300px;
 }
 #galeria-fotos .contenedor-foto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(30%) brightness(90%);
 }
@@ -291,11 +307,11 @@ body {
   text-transform: uppercase;
   font-size: 2.5rem;
   margin-bottom: 20px;
-  border-left: 4px solid #9a0000;
+  border-left: 4px solid #b30000;
   padding-left: 15px;
 }
 #playlist-seccion p {
-  color: #918f8f;
+  color: #b3b3b3;
   font-size: 1.1rem;
   line-height: 1.8;
 }
@@ -304,8 +320,7 @@ body {
 }
 
 #formulario-seccion {
-  padding: 60px 0;
-  background-color: #1a1a1a;
+  background-color: #1e1e1e;
   border-radius: 8px;
   padding: 40px;
   margin-bottom: 60px;
@@ -338,8 +353,8 @@ body {
 }
 #formulario-seccion .form-control:focus {
   background-color: #1f1f1f;
-  border-color: #9a0000;
-  box-shadow: 0 0 8px rgba(154, 0, 0, 0.3);
+  border-color: #b30000;
+  box-shadow: 0 0 8px rgba(179, 0, 0, 0.3);
   color: #ffffff;
 }
 #formulario-seccion .btn-plataforma {

@@ -1,9 +1,9 @@
 $negro-fondo: #0a0a0a;
-$rojo-tanpura: #9a0000;
-$blanco-gris: #918f8f;
+$fondo-principal: #121212;
+$fondo-secundario: #1e1e1e;
+$rojo-tanpura: #b30000;
 $blanco-letras: #ffffff;
-$fondo-secundario: #1a1a1a;
-$fondo-principal: #413c3c;
+$blanco-gris: #b3b3b3;
 
 @mixin boton-estructura {
     display: inline-block;
@@ -14,4 +14,8 @@ $fondo-principal: #413c3c;
     text-align: center;
     border-radius: 4px;
     transition: all 0.3s ease;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
 }

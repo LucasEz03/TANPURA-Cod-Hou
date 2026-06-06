@@ -23,7 +23,6 @@
 }
 
 #formulario-seccion {
-    padding: 60px 0;
     background-color: $fondo-secundario;
     border-radius: 8px;
     padding: 40px;
@@ -64,6 +63,7 @@
     }
 
     .btn-plataforma {
+        @extend .btn-plataforma;
         margin-top: 10px;
         width: 100%;
         
