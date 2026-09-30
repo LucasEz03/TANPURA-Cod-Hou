@@ -42,6 +42,15 @@
   color: #b30000;
   transition: 0.3s;
 }
+.navbar .navbar-toggler {
+  border-color: #b30000;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem rgba(179, 0, 0, 0.5);
+}
+.navbar .navbar-toggler-icon {
+  filter: invert(1) grayscale(100%) brightness(1.5);
+}
 
 html, body {
   overflow-x: hidden;
@@ -310,6 +319,15 @@ main {
   transform: scale(1.08);
   filter: grayscale(0%) brightness(110%);
 }
+@media (max-width: 576px) {
+  #galeria-fotos .contenedor-foto img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #galeria-fotos .contenedor-foto:hover img {
+    transform: none;
+  }
+}
 
 #playlist-seccion {
   padding: 60px 15px;
@@ -462,8 +480,8 @@ main {
 .tarjeta-producto .tarjeta__imagen {
   width: 100%;
   height: 180px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 6px;
   margin-bottom: 15px;
   background-color: #0a0a0a;
@@ -586,8 +604,8 @@ main {
 .carrito__imagen {
   width: 50px;
   height: 50px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 4px;
   background-color: #0a0a0a;
 }

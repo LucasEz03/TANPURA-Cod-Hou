@@ -33,5 +33,15 @@
                 filter: grayscale(0%) brightness(110%); 
             }
         }
+
+        @media (max-width: 576px) {
+            img {
+                object-fit: contain;
+            }
+
+            &:hover img {
+                transform: none;
+            }
+        }
     }
 }

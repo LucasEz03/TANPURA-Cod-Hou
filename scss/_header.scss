@@ -16,4 +16,16 @@
             transition: 0.3s;
         }
     }
+
+    .navbar-toggler{
+        border-color: $rojo-tanpura;
+
+        &:focus{
+            box-shadow: 0 0 0 0.15rem rgba($rojo-tanpura, 0.5);
+        }
+    }
+
+    .navbar-toggler-icon{
+        filter: invert(1) grayscale(100%) brightness(1.5);
+    }
 }

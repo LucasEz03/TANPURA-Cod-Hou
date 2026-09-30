@@ -7,6 +7,7 @@ const botonFinalizarCompra = document.getElementById("finalizar-compra");
 const botonVaciarCarrito = document.getElementById("vaciar-carrito");
 const contadorCarritoEl = document.getElementById("contador-carrito");
 
+
 function obtenerCarrito() {
   const carritoGuardado = localStorage.getItem(CLAVE_STORAGE_CARRITO);
   return carritoGuardado ? JSON.parse(carritoGuardado) : [];
@@ -77,7 +78,7 @@ function renderizarCarrito() {
     const fila = document.createElement("div");
     fila.className = "carrito__item";
     fila.innerHTML = `
-      <img src="${imagen}" alt="${nombre}" class="carrito__imagen" />
+      <img src="../${imagen}" alt="${nombre}" class="carrito__imagen" />
       <div class="carrito__info">
         <p class="carrito__nombre">${nombre}${talle ? ` (Talle: ${talle})` : ""}</p>
         <p class="carrito__precio">$${(precio * cantidad).toLocaleString("es-AR")}</p>
