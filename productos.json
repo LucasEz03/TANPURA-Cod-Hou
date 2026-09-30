@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Remera Logo Clasico",
+    "categoria": "indumentaria",
+    "precio": 10000,
+    "stock": 20,
+    "imagen": "img/remera.webp",
+    "talles": ["S", "M", "L", "XL"],
+    "descripcion": "Remera oficial con estampado frontal."
+  },
+  {
+    "id": 2,
+    "nombre": "Buzo Logo Clásico",
+    "categoria": "indumentaria",
+    "precio": 20000,
+    "stock": 12,
+    "imagen": "img/buzo.webp",
+    "talles": ["M", "L", "XL"],
+    "descripcion": "Buzo canguro con el logo bordado en el pecho."
+  },
+  {
+    "id": 3,
+    "nombre": "Vinilo - Primer Álbum",
+    "categoria": "música",
+    "precio": 22000,
+    "stock": 8,
+    "imagen": "img/vinilo.webp",
+    "talles": null,
+    "descripcion": "Edición limitada en vinilo de 180 gramos."
+  },
+  {
+    "id": 4,
+    "nombre": "CD - Coraza Medieval",
+    "categoria": "música",
+    "precio": 9000,
+    "stock": 0,
+    "imagen": "img/cd.webp",
+    "talles": null,
+    "descripcion": "CD del primer album \"Coraza Medieval\"."
+  },
+  {
+    "id": 5,
+    "nombre": "Gorra Bordada",
+    "categoria": "accesorios",
+    "precio": 4000,
+    "stock": 15,
+    "imagen": "img/gorra.webp",
+    "talles": null,
+    "descripcion": "Gorra negra con logo bordado, ajuste trasero."
+  },
+  {
+    "id": 6,
+    "nombre": "Poster Rey del Tablero",
+    "categoria": "accesorios",
+    "precio": 3000,
+    "stock": 30,
+    "imagen": "img/poster.webp",
+    "talles": null,
+    "descripcion": "Ilustración exclusiva del arte de tapa del sencillo Rey del Tablero."
+  }
+]
